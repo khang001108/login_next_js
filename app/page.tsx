@@ -8,7 +8,7 @@ export default function LoginPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === "admin" && password === "123456") {
+    if (username === "admin" && password === "020120") {
       setLoggedIn(true);
     } else {
       alert("Sai tên đăng nhập hoặc mật khẩu!");
@@ -18,7 +18,7 @@ export default function LoginPage() {
   if (loggedIn) {
     return (
       <div style={{ textAlign: "center", marginTop: "100px" }}>
-        <h1>Xin chào {username} 👋</h1>
+        <h1>Xin chào vợ iu ❤️❤️</h1>
         <button onClick={() => setLoggedIn(false)}>Đăng xuất</button>
       </div>
     );
